@@ -2,7 +2,13 @@
 name = "libsyscall-intercept"
 version = "0.1.0"
 edition = "2021"
-
+authors = ["gzhuflyer <gzhuflyer@foxmail.com>"]
+description = "Userspace syscall intercepting library."
+readme = "README.md"
+homepage = "https://github.com/GzhuFlyer/libsyscall-intercept-rs"
+repository = "https://github.com/GzhuFlyer/libsyscall-intercept-rs"
+license = "MIT"
+keywords = ["syscall", "interception"]
 
 
 [build-dependencies]
