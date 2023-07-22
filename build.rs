@@ -5,7 +5,7 @@ use std::path::PathBuf;
 fn main() {
 
     let dst = cmake::Config::new("libsyscall-intercept/syscall_intercept")
-            .out_dir("/tmp/out_build_dir")
+            .out_dir("./out_build_dir")
             .build();
 
     println!("cargo:rustc-link-search=native={}/lib", dst.display());
