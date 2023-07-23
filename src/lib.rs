@@ -1,4 +1,4 @@
-include!("../bindings.rs");
+include!("../target/bindings.rs");
 
 pub type HookFn = extern "C" fn(
     num: i64,

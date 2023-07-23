@@ -8,12 +8,12 @@ readme = "README.md"
 homepage = "https://github.com/GzhuFlyer/libsyscall-intercept-rs"
 repository = "https://github.com/GzhuFlyer/libsyscall-intercept-rs"
 license = "MIT"
-keywords = ["syscall", "interception"]
+keywords = ["syscall", "intercept"]
 
 
 [build-dependencies]
 cmake = "0.1"
-bindgen = "0.60"
+bindgen = "0.65"
 
 [dependencies]
 libc = "0.2"

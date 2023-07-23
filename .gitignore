@@ -15,4 +15,4 @@ Cargo.lock
 
 bindings.rs
 
-out_build_dir/
+.vscode/
