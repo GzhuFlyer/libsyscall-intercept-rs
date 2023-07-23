@@ -1,6 +1,6 @@
 [package]
 name = "libsyscall-intercept"
-version = "0.1.1"
+version = "0.1.2"
 edition = "2021"
 authors = ["gzhuflyer <gzhuflyer@foxmail.com>"]
 description = "Userspace syscall intercepting library."
