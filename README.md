@@ -113,3 +113,6 @@ cargo build
 LD_PRELOAD=./target/debug/librintercept.so ls
 ```
 will see command ***ls is not support***.
+
+
+## [blog](https://blog.csdn.net/gzhu_flyingbird/article/details/131882648?spm=1001.2014.3001.5502)
